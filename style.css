@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* .container {
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border: 2px solid red;
+  padding: 100px;} 
+  */
+.container {
+  margin: 30px;
+  height: 400px;
+  width: 700px;
+  border: 2px solid;
+  /* df */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  /* align-items: flex-start; */
+}
+.box {
+  height: 80px;
+  width: 80px;
+  border: 1px solid red;
+}
