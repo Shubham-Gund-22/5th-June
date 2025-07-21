@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 600px;
+  width: 700px;
+  border: 2px solid red;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  /* gap : row-gap col-gap */
+  gap: 10px 20px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+}
